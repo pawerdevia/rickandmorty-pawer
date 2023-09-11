@@ -1,0 +1,35 @@
+.container-pagination{
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-pagination button{
+    background-color: #71A821;
+    width: 2vw;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Combo', cursive;
+    font-size: 1.2rem;
+}
+
+.container-pagination button:hover{
+    background-color: #608e1b;
+}
+
+.container-pagination button.active{
+    background-color: #72a82196;
+    color: black;
+    font-weight: 700;
+}
+
+
+@media (max-width:1023px) {
+    .container-pagination button{
+        width: 7vw;
+    }
+}
