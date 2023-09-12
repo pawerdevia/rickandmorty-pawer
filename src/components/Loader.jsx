@@ -2,14 +2,17 @@ import React from 'react'
 
 const Loader = () => {
     return (
-        <div className="spinner">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+        <>
+        <h2>Loading</h2>
+            <div className="spinner">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </>
     )
 }
 
